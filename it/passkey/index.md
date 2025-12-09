@@ -31,24 +31,27 @@ windows helloの認証機レベルは謎。FIDO2認証を受けているとの�
 > UAF、U2F、および FIDO2 の認定には、少なくとも認証器認定レベル 1（L1）の認定を受けていることが必要である。  
 https://fidoalliance.org/certification/authenticator-certification-levels/authenticator-level-1-3/?lang=ja
 
+- 種別
 
-- プラットフォーム認証器 (Platform Authenticator)  
-    デバイス内蔵型。PCやスマホが該当。
-- ローミング認証器 (Roaming Authenticator)  
-    独立したデバイス。USBとか。
+    - **プラットフォーム認証器 (Platform Authenticator)**  
+        デバイス内蔵型。PCやスマホが該当。
+    - **ローミング認証器 (Roaming Authenticator)**  
+        独立したデバイス。USBとか。
 
 #### FIDO2
 
-### Web Authentication（WebAuthn）
+- 構成要素
 
-ブラウザ・サーバ間の通信の仕様。  
-やり取りに必要なWEB APIなどを定義している。  
-公開鍵暗号方式を用いて認証を行う。
+    - **Web Authentication（WebAuthn）**  
 
-### Client to Authenticator Protocols（CTAP）
+        ブラウザ・サーバ間の通信の仕様。  
+        やり取りに必要なWEB APIなどを定義している。  
+        公開鍵暗号方式を用いて認証を行う。
 
-FIDO認証器とクライアント間の通信の仕様。  
-2025年7月14日時点でCTAP 2.2。  
+    - **Client to Authenticator Protocols（CTAP）**  
+
+        FIDO認証器とクライアント間の通信の仕様。  
+        2025年7月14日時点でCTAP 2.2。  
 
 #### 処理シーケンス
 
